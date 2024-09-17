@@ -1,5 +1,11 @@
 # API de Produtos
 
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/postgreSQL-%23336791.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-%23Clojure.svg?style=for-the-badge&logo=swagger&logoColor=white)
+
+
 Esta é uma API RESTful desenvolvida em Spring Boot para gerenciamento de produtos. A API permite a criação, consulta, atualização e exclusão de informações de produtos, como nome e valor. O projeto utiliza PostgreSQL como banco de dados.
 
 ## Funcionalidades
@@ -87,7 +93,7 @@ Se preferir uma forma mais simples de testar a API e ver a documentação de for
    <dependency>
        <groupId>org.springdoc</groupId>
        <artifactId>springdoc-openapi-ui</artifactId>
-       <version>1.6.9</version>
+       <version>coloque aqui a versão desejada</version>
    </dependency>
    ```
 2. Após rodar a aplicação novamente, acesse a documentação interativa gerada pelo Swagger em `http://localhost:8080/swagger-ui.html`.
